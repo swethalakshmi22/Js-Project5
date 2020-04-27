@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+
+body { 
+   text-align: center;
+   color: rgb(61, 23, 61);
+}
+
+.container {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 40%;
+   max-width: 400px;
+}
+
+.uppercase { text-transform: uppercase; }
+
+.content { 
+   border: 2px solid rgb(75, 5, 75);
+   padding: 2rem;
+   background-color: rgba(245, 200, 245, 0.514);
+}
+
+#value { 
+   font-size: 7rem; 
+   margin:0;
+}
+
+input {
+   padding: 0.5em;
+   background-color: wheat;
+   border: 2px solid rgb(168, 117, 23);
+   color: rgb(61, 23, 61);
+   font-weight: bold;
+}
+
+#btn2 { margin-left: 3em; }
